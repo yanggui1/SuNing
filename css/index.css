@@ -1,8 +1,86 @@
 @charset "utf-8";
 
-#div1{
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#topNavBarTopOut {
+    border: 1px solid green;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+#topNavBarTop{
+    border: 1px solid red;
+    margin: auto;
+    width: 1290px;
+    height: 40px;
+}
+
+#topLeft {
     border: 1px solid red;
     width: 300px;
-    height: 300px;
+    height: 40px;
+    float: left;
+}
+
+#topLeftU1 {
+    border: 0px solid blue;
+    list-style: none;
+}
+
+#topLeftU1 .topLeftL1{
+    border: 0px solid green;
+    float: left;
+    width: 97px;
+    height: 40px;
+}
+.topLeftL1Text {
+    font-size: 13px;
+    color: #555;
+    border: 0px solid red;
+    width: 75px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.L1Text1{
+    color: #555;
+    text-decoration: none;
+}
+.L1Text1:hover {
+    color: #f77c03;
+}
+
+.topLeftL1Img{
+    border: 0px solid red;
+    width: 10px;
+    height: 6px;
+    float: left;
+    margin-top: 6px;
+}
+
+#topRight {
+    border: 1px solid red;
+    width: 750px;
+    height: 40px;
+    float: right;
+}
+
+
+
+
+
+#topNavBarCenterOut {
+    border: 1px solid green;
+    width: 100%;
+}
+
+#topNavBarCenter{
+    border: 1px solid red;
     margin: auto;
+    width: 1290px;
+    height: 120px;
 }
